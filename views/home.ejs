@@ -1,0 +1,14 @@
+<div>
+    <form action="/projects/create" method="post">
+        <input type="submit" value="Create Project">
+    </form>
+</div>
+
+<div>
+    <%for(project of projects){%>  
+        Name:<%= project.name %> <br>
+        Description:<%= project.description %><br>
+        Author:<%= project.author %><br>
+        <br>
+    <%}%>
+</div>
