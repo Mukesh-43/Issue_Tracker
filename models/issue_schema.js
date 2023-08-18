@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const issueSchema = new mongoose.Schema({
+const issueSchema = new mongoose.Schema({       // All the details get stored in the DB with respect to schema
     title: {
         type: String,
         trim: true,
@@ -16,7 +16,7 @@ const issueSchema = new mongoose.Schema({
         trim: true,
         required: true,
       },
-      labels: [
+      labels: [       // Array of objects
         {
           type: String,
           trim: true,

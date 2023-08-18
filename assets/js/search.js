@@ -1,8 +1,8 @@
-//get the form
+//get the form by id
 let searchIssueForm = document.getElementById('search-issue-form');
-// get the details of the issues of the project in json
+// get the details of the issues of the project
 let searchJson = document.getElementById('issue-data').getAttribute('data');
-// parse the data
+// parse the data to Json
 let searchIssues = JSON.parse(searchJson);
 // get element where searched t will be shown
 let searchList = document.getElementById('issues-list');

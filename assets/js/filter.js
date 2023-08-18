@@ -1,12 +1,13 @@
-// get the form
+// get the form by id
 let filterIssueForm = document.getElementById('filter-issue-form');
-// get the details of the issues of the project in json
+// get the details of the issues of the project
 let issuesJson = document.getElementById('issue-data').getAttribute('data');
-// parse the data
+// parse the data to Json
 let issues = JSON.parse(issuesJson);
 // get element where filtered issues will be shown
 let issueList = document.getElementById('issues-list');
 
+// adding submit event listener
 filterIssueForm.addEventListener('submit', function (e) {
   e.preventDefault();
 
