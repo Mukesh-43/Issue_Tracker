@@ -1,11 +1,15 @@
-const Projects = require('../models/project_schema');
+const Project = require('../models/project_schema');
 
 module.exports.home = async function(req,res){
 
-    // TODO create a project list action
-    let projects = await Projects.find({});
-    res.render('home',{
-        title: 'Issue Tracker Home',
-        projects : projects
-    })
-}
+    try {
+        let projects = await Project.find({}).sort('-createdAt');
+        return res.render('home', {
+          title: 'Issue Tracker - Home',
+          projects: projects,
+        });
+      } catch {
+        console.log('Error', err);
+        return;
+      }
+};

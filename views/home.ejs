@@ -1,14 +1,19 @@
-<div>
-    <form action="/projects/create" method="post">
-        <input type="submit" value="Create Project">
-    </form>
-</div>
-
-<div>
-    <%for(project of projects){%>  
-        Name:<%= project.name %> <br>
-        Description:<%= project.description %><br>
-        Author:<%= project.author %><br>
-        <br>
-    <%}%>
-</div>
+<div class="mb-5 p-5">
+    <% for( let project of projects ) { %>
+      <a href="/projects/<%=project._id%>" id="ooo" class="m-auto text-decoration-none ">
+        <div class="card mb-2 w-50 m-auto border border-white p-3 bg-success text-white">
+          <div class="card-header text-center fs-3 ">
+            <strong> Project : </strong><%= project.name %>
+          </div>
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 fs-3">
+              <strong> Author : </strong> <%= project.author %>
+            </h6>
+            <p class="card-text fs-5">
+              <strong> Description : </strong><%= project.description %>
+            </p>
+          </div>
+        </div>
+      </a>
+    <% } %>
+  </div>
