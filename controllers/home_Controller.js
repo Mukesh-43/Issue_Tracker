@@ -8,7 +8,7 @@ module.exports.home = async function(req,res){
           title: 'Issue Tracker - Home',
           projects: projects, // The found projects passed to the home page
         });
-      } catch {
+      } catch(err){
         console.log('Error', err);
         return;
       }
