@@ -1,5 +1,5 @@
 # Issue_Tracker
-    nodejs + ejs  application to track issues of the projects.
+    Hosted Link : https://issue-tracker-4efn.onrender.com/
       
 ## Features :
 
@@ -26,3 +26,18 @@
         -Description
         -Labels (multiple labels can be added to a project, IF a project has a label already show it (in dropdown) as the user types the label in)
         -Author
+### 5. Images
+
+![Screenshot (37)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/5ef72c67-efb3-4d41-a7de-6d0494748415)
+![Screenshot (48)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/d956ac01-5550-4530-932d-16acdc844522)
+
+![Screenshot (47)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/768ea12d-5d51-4feb-9983-0259b574893f)
+
+![Screenshot (46)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/9d4beb46-9936-4356-bdb6-2d6b47a8a407)
+![Screenshot (50)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/dad97cfb-2dde-4a67-9402-a33b42d5dce7)
+![Screenshot (51)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/98aa37fe-507e-4a54-9fbf-9adacfa2658a)
+
+![Screenshot (52)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/c9d3dfb0-a546-4ee4-8565-d194b5e84121)
+![Screenshot (53)](https://github.com/Mukesh-43/Issue_Tracker/assets/135153880/de58fd64-3c80-44fa-ab03-5d52519a704f)
+
+
